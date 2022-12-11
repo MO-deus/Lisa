@@ -1,0 +1,21 @@
+
+To do : 1. implement the creation of grimoire application without having to write main in Lisa
+
+Fri, 4 nov 2022 
+	Entry point : from where to start the execution of the engine code.
+
+	a DLL file contains an exports table. 
+	The exports table contains the name of every function that the DLL exports to other executables.
+
+	__declspec(export) : must be written before the calling convention keyword (like classes, struct etc.)
+						 this enables the keyword to use those functions in the code however they see fit.
+
+
+Monday, 14 Nov 2022, 0041 hours : Implementing logs ( for errors and messages )
+	Logging : Writing log files/messages of various events
+	-> assigning priority to messages, using color like red for errors, yellow for warnings etc.
+	-> Using a library - [maybe] Easylogging++ or SPD log.
+		-> SPD log contains C# string structure for message printing.
+		-> Creating a wrapper (API for SPD logger)
+	Issues : printing different types of data structures.
+	

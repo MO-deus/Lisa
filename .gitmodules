@@ -1,0 +1,3 @@
+[submodule "Grimoire/vendor/spdlog"]
+	path = Grimoire/vendor/spdlog
+	url = https://github.com/gabime/spdlog

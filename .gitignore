@@ -1,0 +1,18 @@
+#ignore all files in folders mentioned below
+.git/
+.vs/
+bin/
+bin-int/
+Grimoire/vendor/spdlog
+
+# ignore all files named .sln
+*.sln
+
+# ignore the following files
+Lisa/Lisa.vcxproj
+Lisa/Lisa.vcxproj.filters
+Lisa/Lisa.vcxproj.user
+
+Grimoire/Grimoire.vcxproj
+Grimoire/Grimoire.vcxproj.filters
+Grimoire/Grimoire.vcxproj.user
