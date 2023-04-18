@@ -18,4 +18,29 @@ Monday, 14 Nov 2022, 0041 hours : Implementing logs ( for errors and messages )
 		-> SPD log contains C# string structure for message printing.
 		-> Creating a wrapper (API for SPD logger)
 	Issues : printing different types of data structures.
+
+	points to remember while implementing logging :
+	1. Monitoring the level of fatalness : error > warning > info.
+		most of the messages lie in this spectrum.
+	2. Getting the machine specs : OS, reso, processors, GPU etc.
+	3. Log the crucial game functionalities.
+	4. Log the gameplay data.
+	5. Logging the 3rd party services like APIs, libraries etc.
+	6. Monitoring the game launch routines and resource loading.
+	7. Examining the logs before and after release.
 	
+Wednesday, 14 Dec 1149 hours : Premake(setting up a build system)
+	-> Updated to Premake 5 Alpha 16, since it supports vs2019 build.
+	-> Premake uses Lua.
+
+Friday, 16 Dec 0117 hours : Implemented the bat file and finalised the event managment system.
+	Auto execution of the lua script.
+	
+Wednesday, 11 Jan 1726 hours : implementation of event system. 
+	Application(Lisa) : Reads the data from Window and sends it to the different layers.
+	Window: the interface on which the user interacts. gets all types of data[mouse, keyboard, render etc.] as commands.
+			This data can be read by the Application to direct the layers for execution.
+	Layer : Executes different types of event by taking input from Application.
+
+
+

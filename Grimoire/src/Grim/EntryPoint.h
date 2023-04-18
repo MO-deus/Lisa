@@ -8,9 +8,8 @@ extern Grim::Application* Grim::CreateApplication();
 int main(int argc, int** argv)
 {
 	Grim::Log::Init();
-	GRIM_CORE_ERROR("Grimoire Summoned");
-	int a = 2;
-	GRIM_CLIENT_INFO("Welcome to Lisa.... Var = {0}", a);
+	GRIM_CORE_WARN("Grimoire Summoned");
+	GRIM_CLIENT_INFO("Welcome to Lisa.... ");
 
 	auto obj = Grim::CreateApplication();
 	obj->Game_loop();

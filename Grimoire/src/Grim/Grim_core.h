@@ -15,3 +15,5 @@
 #define GRIM_CORE_WINDOW_PLATFORM	
 
 #endif // GRIM_CORE_WINDOW_PLATFORM
+
+#define BIT(x) (1 << x)
