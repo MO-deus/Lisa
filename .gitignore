@@ -4,6 +4,7 @@
 bin/
 bin-int/
 Grimoire/vendor/spdlog
+vendor/
 
 # ignore all files named .sln
 *.sln
@@ -16,3 +17,5 @@ Lisa/Lisa.vcxproj.user
 Grimoire/Grimoire.vcxproj
 Grimoire/Grimoire.vcxproj.filters
 Grimoire/Grimoire.vcxproj.user
+
+.gitmodules
